@@ -6,6 +6,10 @@ body {
 }
 .content-wrapper{
     width: 90%;
+    margin: 0 auto;
+}
+h1 {
+    margin-top: 80px;
 }
 h1 span {
     color: #4adf86;
@@ -17,7 +21,18 @@ h1 span {
 button{
     background-color: #4adf86;
     color: white;
+    padding: 9px 15px;
+    border-radius: 6px;
 }
 .input {
     padding-top: 20px;
+}
+#random-one, #random-two{
+    background-color: #273549;
+    border-style: none;
+    border-radius: 6px;
+    height: 25px;
+    text-align: center;
+    color: #55f991;
+    margin-right: 10px;
 }
